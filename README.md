@@ -1,3 +1,3 @@
 # AstroIAPS
-Official AstroIAPS excursion page  
+Official AstroIAPS excursion webpage  
 Made by Ian Castellanos from NC Mexico - Ensenada
