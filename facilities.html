@@ -17,36 +17,44 @@
   </head>
   <body>
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html"><b>AstroIAPS</b></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li> &nbsp;
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Facilities<span class="sr-only">(current)</span></a>
-            </li> &nbsp;
-            <li class="nav-item">
-              <a class="nav-link" href="programme.html">Programme</a>
-            </li> &nbsp;
-            <li class="nav-item">
-              <a class="nav-link" href="registration.html">Registration</a>
-            </li> &nbsp;
-            <li class="nav-item">
-              <a class="nav-link" href="sponsors.html">Sponsors</a>
-            </li> &nbsp;
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.iaps.info/">IAPS</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      <header>
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html"><b>AstroIAPS</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li> &nbsp;
+     
+                <div class="btn-group" role="group">
+                  <a type="button" class="btn dropdown-toggle dropdown-toggle-split nav-link active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Facilities<span class="sr-only">(current)</span><span class="sr-only">Toggle Dropdown</span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="facilities.html#UNAM">UNAM-IA</a>
+                    <a class="dropdown-item" href="facilities.html#UABC">UABC-FC</a>
+                    <a class="dropdown-item" href="facilities.html#CICESE">CICESE</a>
+                  </ul>
+                </div> &nbsp;
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="programme.html">Programme</a>
+                </li> &nbsp;
+                <li class="nav-item">
+                  <a class="nav-link" href="registration.html">Registration</a>
+                </li> &nbsp;
+                <li class="nav-item">
+                  <a class="nav-link" href="sponsors.html">Sponsors</a>
+                </li> &nbsp;
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.iaps.info/">IAPS</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
 
     <main role="main">
    
@@ -65,7 +73,7 @@
           </div>
           <div class="col-md-5"><br/><br/>
             <a href="http://www.astroscu.unam.mx/IA/index.php?lang=en" target="_blank">
-              <img class="featurette-image img-fluid mx-auto" src="unam-ia.png" alt="UNAM-IA Logo">
+              <img class="featurette-image img-fluid mx-auto" src="assets/unam-ia.png" alt="UNAM-IA Logo">
             </a>    
           </div>
         </div>
@@ -74,14 +82,16 @@
 
         <div id="UABC" class="row featurette">
             <div class="col-md-7">
-              <h2 class="featurette-heading">UABC: <span class="text-muted">Faculty of Sciences</span></h2>
-              <p class="lead" style="text-align:justify">The Faculty of Sciences of the Autonomous University of Baja California, officially started its academic activities on June 21, 1977, and its currently the only place in the state of Baja California where Biology, Physics, Computer Science and Applied Mathematics degrees can be studied.</p>
+              <h2 class="featurette-heading">UABC: <span class="text-muted">Faculty of Science</span></h2>
+              <p class="lead" style="text-align:justify">The Faculty of Science of the Autonomous University of Baja California, officially started its academic activities on June 21, 1977, and its currently the only place in the state of Baja California where Biology, Physics, Computer Science and Applied Mathematics degrees can be studied.</p>
               <p class="lead" style="text-align:justify">The Faculty has several graduate studies, such as <a href="http://meza.ens.uabc.mx/" targer="_blank">Master in Management of Ecosystems of Arid Zones</a>, <a href="http://fcm.ens.uabc.mx/posgrado/especialidadgestionambiental/index.htm" target="_blank">Specialization in Environmental Management</a> and <a href="http://www.mydci-uabc.com/" target="_blank">Master's and Doctorate in Science and Engineering</a>.</p>
               <p class="lead" style="text-align:justify">There are also several <a href="http://fc.ens.uabc.mx/?page_id=1768" target="_blank">research projects</a> such as "Coevolution and ecological genetics of plants and herbivores", "Molecular evolution of pathogenic" and "Neurotoxicology of environmental pollutants".</p>
+              <p class="lead" style="text-align:justify">This year the Faculty will be celebrating the 40<sup>th</sup> aniversary of its Physics degree.</p>
+              <a type="button" class="btn btn-outline-primary" href="gallery.html" target="_blank">Browse Gallery</a>
             </div>
             <div class="col-md-5">
               <a href="http://fc.ens.uabc.mx/" target="_blank">
-                <img class="featurette-image img-fluid mx-auto" src="logo-fc.png" alt="Faculty of Sciences Logo">
+                <img class="featurette-image img-fluid mx-auto" src="assets/logo-fc.png" alt="Faculty of Sciences Logo">
               </a>
              </div>
           </div>
